@@ -12,6 +12,11 @@
 	$ git checkout -b branch-name
 
 #2. merge
-  * 
+  0. master 브랜치에 test 브랜치의 사항들을 합치고 싶으면,
+  1. master branch로 checkout부터 한다.
+  2. merge 한다.
+	$ git merge test
+  3. 만약 conflict가 난다면 어떤 파일에 conflict가 났는지 알아보고, conflict를 해결한다.
+  4. conflict를 해결했으면 add, commit, push 끝
 
 #
